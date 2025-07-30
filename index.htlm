@@ -2,90 +2,95 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kit NutreRecreo - Snacks sin sellos para escuelas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amaranto sin sellos en escuelas</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-white text-gray-800 font-sans">
+<body class="bg-white text-gray-800 font-sans scroll-smooth">
 
-  <!-- Hero Section -->
-  <section class="relative bg-cover bg-center h-screen flex items-center justify-center text-white" style="background-image: url('https://img.freepik.com/foto-gratis/composicion-alimentos-dieta-flexitariana-facil_13863469.htm');">
-    <div class="bg-black bg-opacity-50 w-full h-full absolute top-0 left-0"></div>
-    <div class="z-10 text-center px-6 md:px-20">
-      <h1 class="text-4xl md:text-6xl font-bold mb-6">La lonchera que sí puede entrar a la escuela</h1>
-      <p class="text-xl md:text-2xl mb-8">Snacks escolares sin sellos, con amaranto, sabor y educación</p>
-      <a href="#contacto" class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold">Quiero mi kit de prueba</a>
+  <!-- HERO -->
+  <section class="relative bg-cover bg-center h-screen transition-all duration-700" style="background-image: url('https://i.imgur.com/lwWOHy0.jpeg');">
+    <div class="absolute inset-0 bg-green-900 bg-opacity-60 flex flex-col justify-center items-center text-center px-6">
+      <h1 class="text-5xl md:text-6xl font-extrabold text-white drop-shadow mb-4 animate-fadeIn">¡Nutrición escolar sin sellos!</h1>
+      <p class="text-xl md:text-2xl text-white max-w-2xl mb-6 animate-fadeIn delay-150">Lleva productos de amaranto saludables, deliciosos y 100% permitidos en escuelas mexicanas.</p>
+      <a href="#formulario" class="bg-lime-500 hover:bg-lime-600 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300 animate-fadeIn delay-300">
+        Quiero inscribirme
+      </a>
     </div>
   </section>
 
-  <!-- ¿Qué es el kit? -->
-  <section class="py-16 px-6 md:px-20 bg-gray-50">
-    <div class="max-w-5xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-6">¿Qué es el Kit NutreRecreo?</h2>
-      <p class="text-lg mb-8">Es una caja semanal con snacks a base de amaranto sin sellos de advertencia, ideales para cumplir la normativa escolar y fomentar una alimentación saludable.</p>
-      <div class="flex justify-center mb-10">
-        <img src="https://img.freepik.com/foto-gratis/flat-lay-snack-bares-frutas_8810591.htm" alt="Snacks escolares" class="rounded-lg shadow-lg w-full max-w-lg">
-      </div>
-      <ul class="text-left text-lg max-w-2xl mx-auto list-disc list-inside space-y-2">
-        <li>✔️ 3 snacks deliciosos y funcionales</li>
-        <li>✔️ 1 actividad educativa visual para niños</li>
-        <li>✔️ Basado en alimentos tradicionales</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Beneficios Clave -->
-  <section class="py-16 px-6 md:px-20 bg-white">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-10">Beneficios Clave</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-gray-50 p-6 rounded shadow text-left">
-          <img src="https://img.freepik.com/foto-gratis/barras-aperitivos-azucar-vista-superior_13638388.htm" class="mb-4 rounded shadow" alt="Cumple con normativas">
-          <h3 class="text-xl font-semibold mb-2">Cumple con normativas</h3>
-          <p>Sin sellos de advertencia, listo para ser llevado a la escuela.</p>
+  <!-- BENEFICIOS -->
+  <section class="py-16 bg-lime-50">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-lime-700 mb-10">¿Por qué nuestros productos de amaranto?</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition-all duration-300">
+          <img src="https://i.imgur.com/3zxS1Mx.jpeg" alt="Salud escolar" class="w-full h-40 object-cover rounded mb-4">
+          <h3 class="text-xl font-semibold mb-2 text-lime-700">Regulación aprobada</h3>
+          <p>Sin sellos de advertencia. Aptos para venderse en escuelas conforme a la NOM-051.</p>
         </div>
-        <div class="bg-gray-50 p-6 rounded shadow text-left">
-          <img src="https://img.freepik.com/vector-gratis/coleccion-elementos-barra-proteina_36304600.htm" class="mb-4 rounded shadow" alt="Refuerzo educativo">
-          <h3 class="text-xl font-semibold mb-2">Refuerzo del aprendizaje</h3>
-          <p>Juegos visuales que ayudan a formar hábitos positivos.</p>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition-all duration-300">
+          <img src="https://i.imgur.com/kVZeJnm.jpeg" alt="Niños felices" class="w-full h-40 object-cover rounded mb-4">
+          <h3 class="text-xl font-semibold mb-2 text-lime-700">Aprobados por familias</h3>
+          <p>Padres y docentes valoran su calidad nutricional y el sabor preferido por niños.</p>
         </div>
-        <div class="bg-gray-50 p-6 rounded shadow text-left">
-          <img src="https://img.freepik.es/foto-gratis/flat-lay-snack-bares-frutas_8810591.htm" class="mb-4 rounded shadow" alt="Práctico y delicioso">
-          <h3 class="text-xl font-semibold mb-2">Práctico y delicioso</h3>
-          <p>Integra amaranto en snacks sabrosos y listos para niños.</p>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition-all duration-300">
+          <img src="https://i.imgur.com/B9ppRwP.jpeg" alt="Amaranto nutritivo" class="w-full h-40 object-cover rounded mb-4">
+          <h3 class="text-xl font-semibold mb-2 text-lime-700">Altamente nutritivos</h3>
+          <p>Fuente natural de proteína, fibra, hierro y calcio. Sin aditivos artificiales.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Formulario de Contacto -->
-  <section id="contacto" class="bg-green-50 py-16 px-6 md:px-20">
-    <div class="max-w-3xl mx-auto bg-white p-8 rounded shadow">
-      <h2 class="text-2xl font-bold text-center mb-6">Solicita tu Kit NutreRecreo</h2>
-      <form action="https://formspree.io/f/xyyrezwd" method="POST" class="space-y-6">
-        <div>
-          <label for="name" class="block font-semibold mb-1">Nombre completo</label>
-          <input type="text" id="name" name="name" required class="w-full border border-gray-300 rounded px-4 py-2">
+  <!-- TESTIMONIOS -->
+  <section class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-gray-700 mb-10">Lo que opinan nuestros usuarios</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+          <p class="italic text-gray-600">“Mi hija no comía nada en el recreo, ahora pide los snacks de amaranto cada semana. ¡Gracias por pensar en los niños!”</p>
+          <div class="mt-4 font-semibold text-lime-700">— Karla V., madre de familia</div>
         </div>
-        <div>
-          <label for="email" class="block font-semibold mb-1">Correo electrónico</label>
-          <input type="email" id="email" name="email" required class="w-full border border-gray-300 rounded px-4 py-2">
+        <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+          <p class="italic text-gray-600">“Estamos felices de ofrecer algo saludable y permitido por SEP. A los alumnos les encantan.”</p>
+          <div class="mt-4 font-semibold text-lime-700">— Mtro. Roberto P., director escolar</div>
         </div>
-        <div>
-          <label for="mensaje" class="block font-semibold mb-1">Mensaje o solicitud</label>
-          <textarea id="mensaje" name="mensaje" rows="4" class="w-full border border-gray-300 rounded px-4 py-2"></textarea>
+        <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+          <p class="italic text-gray-600">“¡Me gusta que son crujientes y no tienen cosas raras! Saben rico.”</p>
+          <div class="mt-4 font-semibold text-lime-700">— Diego, alumno de 5.º grado</div>
         </div>
-        <div class="text-center">
-          <button type="submit" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full">Enviar solicitud</button>
-        </div>
-      </form>
+      </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-gray-100 py-6 text-center text-sm text-gray-500">
-    © 2025 NutreRecreo · Contacto: <a href="mailto:yanell74@gmail.com" class="text-green-600 hover:underline">yanell74@gmail.com</a>
+  <!-- FORMULARIO DE GOOGLE -->
+  <section id="formulario" class="py-16 bg-lime-100">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-lime-800 mb-8">¿Te interesa para tu escuela?</h2>
+      <p class="text-center text-lg mb-6 text-gray-700">Llena el siguiente formulario y nos pondremos en contacto contigo.</p>
+      <div class="overflow-hidden rounded-xl shadow-lg">
+        <iframe src="https://forms.gle/FbeMnirETQ9vNzC7A" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0" class="w-full border-none"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-white text-center py-6 text-sm text-gray-500">
+    © 2025 Amaranto Escolar · Contacto: <a href="mailto:yanell74@gmail.com" class="text-lime-700 font-semibold hover:underline">yanell74@gmail.com</a>
   </footer>
 
+  <!-- ANIMACIONES PERSONALIZADAS -->
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fadeIn {
+      animation: fadeIn 1.2s ease-out forwards;
+    }
+    .delay-150 { animation-delay: 0.15s; }
+    .delay-300 { animation-delay: 0.3s; }
+  </style>
 </body>
 </html>
